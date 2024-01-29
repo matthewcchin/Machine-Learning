@@ -13,4 +13,4 @@ Libraries used:
 4. sklearn.naive_bayes.GaussianNB
 5. sklearn.metrics.accuracy_score
 
-See train-mails and test-mails for files used.
+See Data.zip for train-mails and test-males files used.
