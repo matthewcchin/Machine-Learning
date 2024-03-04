@@ -1,5 +1,5 @@
-# CA03
-This project utilizes a decision tree classifier to predict income categories based on demographic attributes. It encompasses data preprocessing, model training, hyperparameter tuning, and prediction.
+# CA04
+This project compares the performance of four models (Random Forest, AdaBoost, Gradient Boost, XGBoost) in predicting income categories based on demographic attributes based on accuracy, AUC, and number of estimators. It encompasses data preprocessing, model training, hyperparameter tuning, and prediction.
 
 ### Installation
 1. Clone the repository.
@@ -10,16 +10,24 @@ This project utilizes a decision tree classifier to predict income categories ba
 2. Follow instructions in the notebooks for analysis, preprocessing, training, tuning, and prediction.
 
 ### Results
-The trained decision tree classifier achieves the following performance metrics on the test dataset:
-Accuracy: 84.42%
-Precision: 72.13%
-Recall: 55.64%
-F1 Score: 62.82%
+#### Accuracy:
+Random Forest: 0.838953
+AdaBoost: 0.845341
+Gradient Boost: 0.846570
+XGBoost: 0.843867
+Gradient Boost p[erformed the bets in terms of accuracy.
+
+#### AUC:
+Random Forest: 0.748384
+AdaBoost: 0.748884
+Gradient Boost: 0.754896
+XGBoost: 0.75707
+XGBoost performed the best for AUC.
+
 
 ### The project utilizes the following Python libraries:
 1. pandas: Data manipulation and analysis
 2. numpy: Numerical computing
 3. matplotlib: Data visualization
-4. seaborn: Statistical data visualization
-5. scikit-learn: Machine learning algorithms and tools
+4. scikit-learn: Machine learning algorithms and tools
 These libraries are essential for tasks such as data preprocessing, model training, hyperparameter tuning, and result visualization.
