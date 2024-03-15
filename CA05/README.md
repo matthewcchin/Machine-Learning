@@ -11,11 +11,11 @@ This project uses a k-Nearest Neighbor (kNN) algorithm to generate 5 similar mov
 
 ### Results
 More Movies Like "The Post":
-12 Years a Slave (Distance = 0.8999999999999995)
-Hacksaw Ridge (Distance = 0.9999999999999991)
-Queen of Katwe (Distance = 1.019803902718557)
-The Wind Rises (Distance = 1.16619037896906)
-A Beautiful Mind (Distance = 1.4142135623730945)
+12 Years a Slave (Distance = 0.8999999999999995)  
+Hacksaw Ridge (Distance = 0.9999999999999991)  
+Queen of Katwe (Distance = 1.019803902718557)  
+The Wind Rises (Distance = 1.16619037896906)  
+A Beautiful Mind (Distance = 1.4142135623730945)  
 
 ### The project utilizes the following Python libraries:
 1. pandas: Data manipulation and analysis
